@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *StdName;
+- (IBAction)OnSubmit:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UILabel *StdMark;
 @end
